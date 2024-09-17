@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: black;
     
 }
 h1 {
@@ -21,4 +21,8 @@ li
     font-family: Haettenschweiler;
     font-size: 15px;
     color:aliceblue
+}
+#color
+{
+    color: white;
 }
