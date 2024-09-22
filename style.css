@@ -1,5 +1,5 @@
 body {
-    backgrounde-color: red;
+    background-color: red;
     
 }
 h1 {
@@ -30,6 +30,6 @@ li
 #Statement
 {
     color: forestgreen
-    font-family: "Times New Roman";
+    font-family: Helvetica;
     font-size: 17px;
 }
