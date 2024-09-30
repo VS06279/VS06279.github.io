@@ -34,3 +34,11 @@ li
     color: aquamarine
  
 }
+.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
+.project {
+width: 40%;
+margin: 20px;
+padding: 40px 40px;
+background: rgb(75, 68, 68); /* pick a color */
+border-radius: 25%;
+}
