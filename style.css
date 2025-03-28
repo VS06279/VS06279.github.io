@@ -1,88 +1,88 @@
 body {
-    background-color: black;
-    
+  background-color: black;
+
 }
 h1 {
-    text-align: center;
-    font-family:Helvetica;
-    font-size: 50px;
-    color: beige;
+  text-align: center;
+  font-family: azonix ;
+  font-size: 50px;
+  color: beige;
 }
 .HeaderTwoColor {
-    color: royalblue;
-    font-family:  'Trebuchet MS';
-    font-size: 25px;
+  color: royalblue;
+  font-family:  'Trebuchet MS';
+  font-size: 25px;
 }
 #ul
 {
-    color:rgb(143, 253, 0)
+  color:rgb(143, 253, 0)
 }
-li 
+li
 {
-    font-family: Lucida Sans;
-    font-size: 15px;
-    color:aliceblue
+  font-family: Klavika;
+  font-size: 15px;
+  color:aliceblue
 }
 #color
 {
-    color: white;
+  color: white;
 }
 #Statement
 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    color: blue;
- 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: blue;
+
 }
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
 .project {
-    width: 30%;
-    margin: 10px;
-    padding: 20px 10px;
-    background: white; /* pick a color */
-    border-radius: 25%;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex; 
-    box-sizing: border-box; 
-}    
+  width: 30%;
+  margin: 10px;
+  padding: 20px 10px;
+  background: white; /* pick a color */
+  border-radius: 25%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
 .project img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid rgb(126, 14, 201); /* choose a color */
-    display: block;
-    margin: auto;
-    }
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid rgb(126, 14, 201); /* choose a color */
+  display: block;
+  margin: auto;
+}
 
-.HeaderThreeColor 
+.HeaderThreeColor
 {
-    color: red;
+  color: red;
 }
 .Size
 {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
 .about{
-    display:flex;
-    flex-wrap:wrap;
-    margin-right: 100px;
-    margin-left: 100px;
-    justify-content: center;
-    }
+  display:flex;
+  flex-wrap:wrap;
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: center;
+}
 
 .about p {
-    width:50%;
-    text-align: center;
-    margin: auto;
-    line-height: 125%;
-    }
-    .about img {
-    width: 150px;
-    height: 200px;
-    border-radius: 25%;
-    border: 2px solid rgb(126, 14, 201);
-    }
+  width:50%;
+  text-align: center;
+  margin: auto;
+  line-height: 125%;
+}
+.about img {
+  width: 150px;
+  height: 200px;
+  border-radius: 25%;
+  border: 2px solid rgb(126, 14, 201);
+}
