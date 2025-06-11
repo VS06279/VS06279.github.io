@@ -1,3 +1,45 @@
+/* Sidebar menucode */
+/* this is essentially the same as the sidenav example in W3 schools */
+.sidenav {
+  height: 100%;
+  width: 0;
+  postition: fixed;
+  z-index: 1; /* stays on the top */
+  top: 0; /* Stay at the top*/
+  left: 0;
+  background-color: #111; /* change this later */
+  overflow-x: hidden; /*disables the horizotnal scroll*/
+  padding-top: 40px; /* Place content 40px from the top */
+  transition: 0.3s; /* 0.3 second transition effect to slide in the sidenav */
+
+  /* The navigation menu links */
+  .sidenav a {
+
+  }
+  /* When you mouse over the nvaigation links, change their color */
+  .sidenav a:hover {
+
+  }
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+
+  }
+  /* Style page content - use this if you want to push the page content
+   to the right when you open the side navigation */
+  #main {
+
+  }
+
+  /* On smaller screens, where height is less than 450px,
+  change the style of the sidenav (less padding and a smaller font size) */
+   @media screen and (max-height: 450px) {
+
+  }
+
+
+
+  /* main site content */
+}
 body {
   background-color: black;
 
@@ -7,6 +49,10 @@ h1 {
   font-family: azonix ;
   font-size: 50px;
   color: beige;
+}
+/* Change this later */
+h2 {
+  color: white;
 }
 .HeaderTwoColor {
   color: royalblue;
