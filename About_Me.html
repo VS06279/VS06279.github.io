@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css"> <!-- link to your CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> <!-- icons -->
+</head>
+<body>
+
+<!-- Navigation  -->
+<section class = "header">
+    <nav>
+        <a href = "index.html"><img src="Images/ComputerScience.png"> </a>
+        <div class = "nav-links" id="navLinks">
+            <i class= "fa-solid fa-circle-xmark" onclick="hideMenu()"> </i>
+
+            <ul>
+                <li> <a href =""> About Me </a></li>
+                <li> <a href =""> Skills </a></li>
+                <li> <a href =""> Projects </a></li>
+                <li> <a href =""> Contacts </a></li>
+                <li> <a href =""> More </a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+<!-----About Me------>
+
+<section class ="couse">
+    <h1>About me</h1>
+    <p> I came from Fort Mill. </p>
+    <p>I attend  USC Columbia while being in Capstone Scholars.</p>
+    <p>I plan on aquiring a bachelor's degree in Computer Science along with a concentration in Artificial Intelligence and a minor in Data Science and Cyber security.</p>
+    <p>I currently have a 4.0 as a freshman in USC Columbia.</p>
+
+    <div class = "row">
+        <div class = "course-col">
+            <h3> My background></h3>
+            <p> I came from Fort Mill.</p>
+        </div>
+        <!--- new column -->
+        <div class = "course-col">
+            <h3> My education></h3>
+            <p> I attend USC Columbia while being in Capstone Scholars. <br> I attended Fort Mill High School from 2020-2024 graudating a 3.7 unweighted and took 6 ap classes. <br> I currently have a 4.0 as a freshman in USC Columbia.</p>
+        </div>
+        <!--- new column -->
+        <div class = "course-col">
+            <h3> My college career</h3>
+            <p>I plan on aquiring a bachelor's degree in Computer Science along with a concentration in Artificial Intelligence and a minor in Data Science and Cyber security.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!----JavaScript for toggle Menu ---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

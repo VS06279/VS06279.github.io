@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css"> <!-- link to your CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> <!-- icons -->
+</head>
+<body>
+
+<!-- Navigation  -->
+<section class = "header">
+    <nav>
+        <a href = "index.html"><img src="Images/ComputerScience.png"> </a>
+        <div class = "nav-links" id="navLinks">
+            <i class= "fa-solid fa-circle-xmark" onclick="hideMenu()"> </i>
+
+            <ul>
+                <li> <a href =""> About Me </a></li>
+                <li> <a href =""> Skills </a></li>
+                <li> <a href =""> Projects </a></li>
+                <li> <a href =""> Contacts </a></li>
+                <li> <a href =""> More </a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+
+    <!----- Contacts ----->
+<section class="campus">
+    <h1> Contacts</h1>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="Images/Contact.png">
+            <div class = "layer">
+                <h3> Contact information</h3>
+                <p>My contact information is: <strong>VIKRANT@email.sc.edu</strong></p>
+                <p>My phone number is: <strong>xxx-xxx-xxx</strong></p>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="Images/Social_Media.png">
+            <div class = "layer">
+                <h3> Social Media</h3>
+                <p>My GitHub is: <a href="https://github.com/VS06279">vs06729</a></p>
+                <p>My LinkedIn is: <a href="https://www.linkedin.com/in/vikrant-suryadevara/">Vikrant Suryadevara</a></p>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="Images/Question_Mark.png">
+            <div class = "layer">
+                <h3> Placeholder text 3</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----JavaScript for toggle Menu ---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

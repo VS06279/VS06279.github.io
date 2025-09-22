@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css"> <!-- link to your CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> <!-- icons -->
+</head>
+<body>
+
+<!-- Navigation  -->
+<section class = "header">
+    <nav>
+        <a href = "index.html"><img src="Images/ComputerScience.png"> </a>
+        <div class = "nav-links" id="navLinks">
+            <i class= "fa-solid fa-circle-xmark" onclick="hideMenu()"> </i>
+
+            <ul>
+                <li> <a href =""> About Me </a></li>
+                <li> <a href =""> Skills </a></li>
+                <li> <a href =""> Projects </a></li>
+                <li> <a href =""> Contacts </a></li>
+                <li> <a href =""> More </a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+    <!----- Projects ------>
+<section class ="facilities">
+    <h1> Projects</h1>
+    <p> this is placeholder text</p>
+
+    <div class="row">
+        <div class ="facilities-col">
+            <img src="Images/Question_Mark.png">
+            <h3> Placeholder text 1</h3>
+            <p> Test 1</p>
+        </div>
+        <div class ="facilities-col">
+            <img src="Images/Question_Mark.png">
+            <h3> Placeholder text 2</h3>
+            <p> Test 2</p>
+        </div>
+        <div class ="facilities-col">
+            <img src="Images/Question_Mark.png">
+            <h3> Placeholder text 3</h3>
+            <p> Test 3</p>
+        </div>
+    </div>
+</section>
+
+
+    <!----JavaScript for toggle Menu ---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+    <!--
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Projects</title>
+    </head>
+    <body>
+
+    <h2 class="HeaderTwoColor">Project</h2>&ndash;&gt;
+        <p>I have several projects, ranging from notepads, basic games, and simple calculators, to websites and functional programs.</p>
+        <p>My latest project is building a website about welding.</p>
+
+        &lt;!&ndash; Problem Statement Assignment &ndash;&gt;
+        <section class="project">
+            <a href="Project.pdf"><h3 class="HeaderThreeColor">Program to help remote workers find a work-life balance</h3></a>
+            <a href="Project.pdf"><img src="statement.png" alt="Project Statement"></a>
+            <p id = "Litext">Remote workers have problems maintaining a separation between work and personal time because the current system doesn't give a balance to work and personal time. This can cause burnout and reduced productivity.</p>
+        </section>
+
+        &lt;!&ndash; Affinity Diagram Assignment &ndash;&gt;
+        <section class="project">
+            <a href="files/Affinity_DOC.pdf"><h3 class="HeaderThreeColor">Affinity Diagram</h3></a>
+            <a href="files/Affinity_DOC.pdf"><img src="Images/Affinity_IMG.png" class="Size" alt="Affinity Diagram"></a>
+            <p id = "Litext">There are 5 columns: Hurdles, Long-term support, Regulatory issues, Advertisement and marketing, and Feedback from users. Each column contains ideas/challenges related to building and maintaining an application, such as solving cost issues, creating support systems, dealing with legal regulations, promoting the app, and gathering user feedback for improvements.</p>
+        </section>
+
+        &lt;!&ndash; Sketches Assignment &ndash;&gt;
+        <section class="project">
+            <a href="files/Sketches_DOC.pdf">Sketches</a>
+            <a href="files/Sketches_DOC.pdf"><img src="Images/Sketches_IMG.png" alt="Sketches"></a>
+            <p id = "Litext" >These sketches represent what the application would look like if it were put for sale. More specifically, it shows the UI and how the app would work, including a prototype of the app and its sections.</p>
+        </section>
+
+        &lt;!&ndash; Paper Prototype Assignment &ndash;&gt;
+        <section class="project">
+            <a href="https://www.youtube.com/watch?v=77XGGIO8fZg&ab_channel=VikrantSuryadevara"><h3>Prototype</h3></a>
+            <a href="https://www.youtube.com/watch?v=77XGGIO8fZg&ab_channel=VikrantSuryadevara"><img src="Images/Proto.png" alt="Prototype"></a>
+            <p id = "Litext">These prototypes were based on my sketches. They show how the app would work if it were to become a real product.</p>
+        </section>
+
+    </body>
+    </html>-->
